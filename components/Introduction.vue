@@ -3,7 +3,7 @@
     id="intro"
     class="flex flex-col h-full min-h-screen items-center justify-center p-12 gap-12 relative"
   >
-    <div class="flex flex-col items-center justify-center min-h-[70vh] gap-12">
+    <div class="flex flex-col items-center justify-center min-h-[60vh] gap-12">
       <h1 class="text-6xl text-black font-mono font-extrabold text-center">
         Apa itu Logicode? 🤷‍♀️
       </h1>
@@ -23,13 +23,13 @@
 
     <div class="flex flex-col shrink gap-2">
       <button
-        class="border-2 border-slate-500 py-4 px-48 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
+        class="border-2 border-slate-500 py-4 px-32 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
         @click="spawnEmoji('😮')"
       >
         <span class="text-3xl">😮</span>
       </button>
       <button
-        class="py-4 px-48 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
+        class="py-4 px-32 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
       >
         <span class="flex gap-2 text-lg font-bold">
           NEXT <i id="intro-next" class="bx bx-down-arrow-alt"></i>
@@ -72,7 +72,7 @@ export default {
         newDiv,
         { fontSize: "24px", opacity: 1, top: `${y}%` },
         {
-          fontSize: "240px",
+          fontSize: "144px",
           opacity: 0,
           display: "none",
           duration: 1.5,
