@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  ssr: true,
+  target: 'serverless',
   csp: true,
   // loading: '~/components/ui/LoadingSpinner.vue',
   generate: {
