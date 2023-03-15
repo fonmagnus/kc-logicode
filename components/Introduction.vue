@@ -1,46 +1,59 @@
 <template>
-  <div
-    id="intro"
-    class="flex flex-col h-full min-h-screen items-center justify-center p-12 gap-12 relative"
-  >
-    <div class="flex flex-col items-center justify-center min-h-[60vh] gap-12">
-      <h1 class="text-6xl text-black font-mono font-extrabold text-center">
-        Apa itu Logicode? 🤷‍♀️
-      </h1>
-
-      <p class="text-center text-2xl">
-        <span class="text-slate-600 text-center"
-          >Logicode adalah kompetisi reguler yang diadakan Kokocoder setiap
-          tahunnya.</span
-        >
-        <br />
-        <span class="text-slate-600 text-center"
-          >Di kompetisi ini kamu akan bertanding dengan peserta lain di bidang
-          <b>matematika</b> dan <b>coding</b>!</span
-        >
-      </p>
-    </div>
-
-    <div class="flex flex-col shrink gap-2">
-      <button
-        class="border-2 border-slate-500 py-4 px-32 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
-        @click="spawnEmoji('😮')"
+  <intersect @enter="enterSection" @leave="leaveSection" :threshold="[0.6]">
+    <div
+      id="intro"
+      class="flex flex-col h-full min-h-screen items-center justify-center p-6 sm:px-24 md:px-48 lg:px-72 xl:px-96 gap-6 relative overflow-hidden"
+    >
+      <div
+        class="flex flex-col items-center justify-center min-h-[60vh] gap-12 w-full"
       >
-        <span class="text-3xl">😮</span>
-      </button>
-      <button
-        class="py-4 px-32 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
-      >
-        <span class="flex gap-2 text-lg font-bold">
-          NEXT <i id="intro-next" class="bx bx-down-arrow-alt"></i>
-        </span>
-      </button>
+        <h1
+          class="opacity-0 intro-title text-4xl sm:text-5xl md:text-6xl text-black font-mono font-extrabold text-center"
+        >
+          Apa itu Logicode? 🤷‍♀️
+        </h1>
+
+        <p class="intro-description text-center text-lg sm:text-xl md:text-2xl">
+          <span class="text-slate-600 text-center"
+            >Logicode adalah kompetisi reguler yang diadakan Kokocoder setiap
+            tahunnya untuk kamu yang masih duduk di
+            <b>kelas 7 SMP - 11 SMA</b></span
+          >
+          <br />
+          <br />
+          <span class="text-slate-600 text-center"
+            >Di kompetisi ini kamu akan bertanding dengan peserta lain di bidang
+            <b>matematika </b> dan <b>coding</b>!</span
+          >
+        </p>
+      </div>
+
+      <div class="flex flex-col shrink gap-2">
+        <button
+          class="border-2 border-slate-500 py-4 px-28 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
+          @click="spawnEmoji('😮')"
+        >
+          <span class="text-3xl">😮</span>
+        </button>
+        <button
+          class="py-4 px-28 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
+          @click="$emit('scrollToSection', 'schedule')"
+        >
+          <span class="flex gap-2 text-lg font-bold">
+            NEXT <i id="intro-next" class="bx bx-down-arrow-alt"></i>
+          </span>
+        </button>
+      </div>
     </div>
-  </div>
+  </intersect>
 </template>
 
 <script>
+import Intersect from "vue-intersect";
 export default {
+  components: {
+    Intersect,
+  },
   mounted() {
     this.animateNextArrow();
   },
@@ -84,6 +97,39 @@ export default {
       const x = Math.random() * 100;
       const y = Math.random() * 20 + 80;
       return { x, y };
+    },
+
+    enterSection() {
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".intro-title",
+          { opacity: 0, x: "-40px" },
+          { opacity: 1, x: "0px", duration: 1 }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".intro-description",
+          { opacity: 0, x: "40px" },
+          { opacity: 1, x: "0px", duration: 1 }
+        );
+    },
+    leaveSection() {
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".intro-title",
+          { opacity: 1, x: "0px" },
+          { opacity: 0, x: "-40px", duration: 1 }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".intro-description",
+          { opacity: 1, x: "0px" },
+          { opacity: 0, x: "40px", duration: 1 }
+        );
     },
   },
 };
