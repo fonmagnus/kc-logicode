@@ -84,7 +84,7 @@
       </div>
 
       <div class="flex flex-col items-center shrink gap-2">
-        <div class="flex gap-2">
+        <!-- <div class="flex gap-2">
           <button
             class="border-2 border-slate-500 py-2 px-14 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
             @click="spawnEmoji('❤️')"
@@ -97,7 +97,7 @@
           >
             <span class="text-xl">🤩</span>
           </button>
-        </div>
+        </div> -->
         <button
           class="py-4 px-28 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
           @click="$emit('scrollToSection', 'rules')"
