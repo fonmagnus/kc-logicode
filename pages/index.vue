@@ -10,7 +10,11 @@
 
 <script>
 export default {
+  mounted() {
+    this.disableScroll();
+  },
   methods: {
+    disableScroll() {},
     scrollToSection(sectionName) {
       if (process.browser) {
         const section = document.getElementById(sectionName);
