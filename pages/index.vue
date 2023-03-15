@@ -5,6 +5,8 @@
     <Schedule @scrollToSection="scrollToSection" />
     <Rules @scrollToSection="scrollToSection" />
     <Testimonials @scrollToSection="scrollToSection" />
+    <Registration @scrollToSection="scrollToSection" />
+    <Contact @scrollToSection="scrollToSection" />
   </div>
 </template>
 

@@ -136,7 +136,7 @@
       <div class="flex flex-col shrink gap-2">
         <button
           class="py-4 px-28 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
-          @click="$emit('scrollToSection', 'schedule')"
+          @click="$emit('scrollToSection', 'registration')"
         >
           <span class="flex gap-2 text-lg font-bold">
             NEXT <i id="testimonials-next" class="bx bx-down-arrow-alt"></i>
