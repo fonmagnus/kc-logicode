@@ -4,9 +4,7 @@
       id="schedule"
       class="flex flex-col h-full min-h-screen justify-center items-center p-6 sm:px-24 md:px-48 lg:px-72 xl:px-96 gap-6 sm:gap-6 md:gap-12 relative overflow-hidden"
     >
-      <div
-        class="flex flex-col items-center justify-center grow gap-4 sm:gap-6"
-      >
+      <div class="flex flex-col items-center justify-center gap-4 sm:gap-6">
         <div class="flex flex-col items-center justify-center gap-4">
           <h1
             class="opacity-0 schedule-title text-4xl sm:text-5xl md:text-6xl text-black font-mono font-extrabold text-center"
@@ -83,7 +81,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col items-center shrink gap-2">
+      <div class="flex flex-col items-center gap-2">
         <!-- <div class="flex gap-2">
           <button
             class="border-2 border-slate-500 py-2 px-14 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
