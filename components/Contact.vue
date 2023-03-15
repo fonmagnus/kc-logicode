@@ -38,7 +38,7 @@
         </a>
         <a
           class="opacity-0 contact-card-2 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
-          href="https://www.kokocoder.com"
+          href="https://kokocoder.com"
           target="_blank"
         >
           <div
