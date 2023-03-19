@@ -32,7 +32,14 @@
         </div>
       </div>
 
-      <div v-if="!hasSubmittedForm" class="flex flex-col gap-4 w-full">
+      <iframe
+        src="https://bit.ly/logicode2023"
+        frameborder="0"
+        width="100%"
+        height="1024px"
+      ></iframe>
+
+      <!-- <div v-if="!hasSubmittedForm" class="flex flex-col gap-4 w-full">
         <Input
           label="Email"
           v-model="form.email"
@@ -64,10 +71,10 @@
           :errors="errors.grade"
           :choices="gradeOptions"
         />
-      </div>
+      </div> -->
 
       <div class="flex flex-col items-center gap-2">
-        <!-- <div class="flex gap-2">
+        <div class="flex gap-2">
           <button
             class="border-2 border-slate-500 py-2 px-14 rounded-xl bg-opacity:50 hover:bg-slate-100 cursor-pointer transition-all"
             @click="spawnEmoji('❤️')"
@@ -80,8 +87,8 @@
           >
             <span class="text-xl">🤩</span>
           </button>
-        </div> -->
-        <button
+        </div>
+        <!-- <button
           v-if="!hasSubmittedForm"
           class="py-4 px-28 mt-12 rounded-xl bg-transparent border-2 border-black bg-opacity:50 cursor-pointer transition-all hover:bg-black hover:text-white"
           @click="submitForm"
@@ -96,7 +103,7 @@
           <span class="flex gap-2 text-lg font-bold">
             NEXT <i id="registration-next" class="bx bx-down-arrow-alt"></i>
           </span>
-        </button>
+        </button> -->
       </div>
     </div>
   </intersect>
