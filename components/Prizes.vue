@@ -23,9 +23,9 @@
 
       <div class="flex flex-col sm:gap-4 md:gap-6 w-full">
         <div
-          class="flex prizes-card-1 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+          class="flex prizes-card-1 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
-          <div class="opacity-0 flex flex-col">
+          <div class="flex flex-col">
             <h3 class="font-bold font-mono sm:text-lg md:text-xl">
               Juara 1 - Absolute
             </h3>
@@ -39,9 +39,9 @@
         </div>
 
         <div
-          class="flex prizes-card-2 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+          class="flex prizes-card-2 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
-          <div class="opacity-0 flex flex-col">
+          <div class="flex flex-col">
             <h3 class="font-bold font-mono sm:text-lg md:text-xl">
               Juara 2-3 - Gold
             </h3>
@@ -55,9 +55,9 @@
         </div>
 
         <div
-          class="flex prizes-card-3 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+          class="flex prizes-card-3 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
-          <div class="opacity-0 flex flex-col">
+          <div class="flex flex-col">
             <h3 class="font-bold font-mono sm:text-lg md:text-xl">
               Juara 4-6 Silver
             </h3>
@@ -71,9 +71,9 @@
         </div>
 
         <div
-          class="flex prizes-card-4 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+          class="flex prizes-card-4 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
-          <div class="opacity-0 flex flex-col">
+          <div class="flex flex-col">
             <h3 class="font-bold font-mono sm:text-lg md:text-xl">
               Juara 7-10 Bronze
             </h3>
@@ -87,9 +87,9 @@
         </div>
 
         <div
-          class="flex prizes-card-5 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+          class="flex prizes-card-5 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
-          <div class="opacity-0 flex flex-col">
+          <div class="flex flex-col">
             <h3 class="font-bold font-mono sm:text-lg md:text-xl">
               Seluruh Peserta
             </h3>
@@ -127,7 +127,7 @@
         </div> -->
         <button
           class="py-4 px-28 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
-          @click="$emit('scrollToSection', 'prizes')"
+          @click="$emit('scrollToSection', 'rules')"
         >
           <span class="flex gap-2 text-lg font-bold">
             NEXT <i id="prizes-next" class="bx bx-down-arrow-alt"></i>
