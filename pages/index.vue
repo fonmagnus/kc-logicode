@@ -3,6 +3,7 @@
     <HeroBanner @scrollToSection="scrollToSection" />
     <Introduction @scrollToSection="scrollToSection" />
     <Schedule @scrollToSection="scrollToSection" />
+    <Prizes @scrollToSection="scrollToSection" />
     <Rules @scrollToSection="scrollToSection" />
     <Testimonials @scrollToSection="scrollToSection" />
     <Registration @scrollToSection="scrollToSection" />

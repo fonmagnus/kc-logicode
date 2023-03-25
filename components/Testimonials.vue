@@ -164,49 +164,49 @@ export default {
           name: "Benedict Presley",
           photo: "presley.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Menurut saya, tingkat kesulitan soalnya balanced. Soal - soalnya juga edukatif dan menyangkut banyak topik. Semangat buat para peserta Logicode 2023. Jangan lupa untuk have fun!",
           title: "Gold Medalist OSN Informatika 2022",
         },
         {
           name: "Nathan Keith",
           photo: "nathan-keith.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Lombanya secara keseluruhan telah disiapkan dengan baik, dan hal tersebut terlihat dari kualitas soal-soal yang diberikan pada ronde logika dan programming. Soal-soalnya sangat menantang, unik, dan original karena dibuat dari tim medallist OSN dan IOI yang sangat kece. Overall, kalian wajib ikut Logicode jika ingin menantang diri kalian bersama dengan kompetitor” imba lainnya 😎",
           title: "Gold Medalist OSN Informatika 2022",
         },
         {
           name: "Roberto Eugenio ",
           photo: "roberto.jpeg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Bagiku mengikuti Logicode itu adalah salah satu pengalaman pertama mengikuti lomba informatika selain OSN. Sewaktu mengikuti Logicode itu seru, karena tidak seperti lomba-lomba lainnya yang sifatnya sangat formal. Panitia-panitia Logicode itu juga sangat ramah dan friendly. Soal-soalnya juga berkualitas, dan bervariasi kesulitannya dari yang mudah sampai sulit, sehingga aku juga belajar banyak hal baru dari sesi editorial/pembahasan soal-soal Logicode. Pengalamanku yang paling terkesan sewaktu ikut Logicode adalah momen greget ketika code yang harusnya AC malah jadi WA gara-gara kurang satu tanda '=' dan masih teringat sampai sekarang. Overall, it was a fun experience.",
           title: "Gold Medalist OSN Informatika 2022",
         },
         {
           name: "Daffa Rayhan Ananda",
           photo: "daffa.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Soal-soal logicode sangatlah berkualitas dan menantang. Hal yang saya suka adalah setelah kontes, soal-soalnya dibahas oleh para problemsetter. Anda pasti tidak akan menyesal mengikuti logicode.",
           title: "Silver Medalist OSN Informatika 2022",
         },
         {
           name: "Maydeline Davidson",
           photo: "maydeline.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Logicode 2022 seruu banget! Selain soal”nya yang original dan berkualitas, ada sesi” pembahasan bareng tim SC yang kerenn”. Dari lomba ini, aku ketemu banyak temen baru yang saling support untuk belajar bareng di dunia cp ini. Definitely recommended buat kalian ikutin terutama yang mau belajar Competitive Programming lebih lagi! 🫶",
           title: "Silver Medalist OSN Informatika 2022",
         },
         {
           name: "Joceline Araki",
           photo: "joceline.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Pengalaman ikut Logicode keren banget! Soal-soalnya asik, kreatif, dan berkualitas banget. Kakak-kakak SC (scientific commitee)-nya sendiri juga gercep dan membantu banget kalau ada pertanyaan atau kesulitan selama kompetisi. 10/10",
           title: "Silver Medalist OSN Informatika 2022",
         },
         {
           name: "Galih Nur Rizqy",
           photo: "galih.jpg",
           message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo maiores eos voluptatum vitae optio facilis ab maxime ullam deserunt velit, vel sit mollitia tempora. Sed officia delectus neque ipsa!",
+            "Soal-soal Logicode beda banget dibanding soal-soal tryout OSK yang lain, unik dan berkualitas karena dibuat oleh troops sama coach KC sendiri, jadi gabakal pernah nemuin tu soal logicode di soal tryout yang lain, bahkan soal logicode lebih susah dibanding soal OSK sendiri!",
           title: "Silver Medalist OSN Informatika 2022",
         },
       ],

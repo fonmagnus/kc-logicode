@@ -1,83 +1,112 @@
 <template>
   <intersect @enter="enterSection" @leave="leaveSection" :threshold="[0.6]">
     <div
-      id="schedule"
+      id="prizes"
       class="flex flex-col h-full min-h-screen justify-center items-center p-6 sm:px-24 md:px-48 lg:px-72 xl:px-96 gap-6 sm:gap-6 md:gap-12 relative overflow-hidden"
     >
       <div class="flex flex-col items-center justify-center gap-4 sm:gap-6">
         <div class="flex flex-col items-center justify-center gap-4">
           <h1
-            class="opacity-0 schedule-title text-4xl sm:text-5xl md:text-6xl text-black font-mono font-extrabold text-center"
+            class="opacity-0 prizes-title text-4xl sm:text-5xl md:text-6xl text-black font-mono font-extrabold text-center"
           >
-            Tanggal Mainnya? 🤷‍♂️
+            Ada Hadiahnya gak? 🎁😲
           </h1>
 
           <p
-            class="opacity-0 schedule-description text-md text-center sm:text-xl md:text-2xl text-slate-600"
+            class="opacity-0 prizes-description text-md text-center sm:text-xl md:text-2xl text-slate-600"
           >
-            <span
-              >Akan ada 2 babak utama yaitu babak <b>Penyisihan</b> dan
-              <b>Final</b>.
-            </span>
-            <span>Berikut jadwal pelaksanaannya</span>
+            <span>Tentu ada dong! </span>
+            <span>Berikut daftar hadiah bagi para pemenangnya</span>
           </p>
         </div>
-        <div class="flex flex-col gap-4 sm:gap-4 md:gap-6 w-full">
-          <div
-            class="opacity-0 schedule-card-1 flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
-          >
-            <h3
-              class="text-orange-400 font-bold font-mono sm:text-lg md:text-xl"
-            >
-              Penyisihan
+      </div>
+
+      <div class="flex flex-col sm:gap-4 md:gap-6 w-full">
+        <div
+          class="flex prizes-card-1 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+        >
+          <div class="opacity-0 flex flex-col">
+            <h3 class="font-bold font-mono sm:text-lg md:text-xl">
+              Juara 1 - Absolute
             </h3>
-            <span class="text-slate-600 sm:text-lg md:text-xl"
-              ><b>Sesi 1 - Logic</b></span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 15 April 2023</span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🕘 09.05 - 10.35</span
+            <span
+              class="text-orange-500 text-2xl sm:text-4xl md:text-5xl font-extrabold"
+              >Rp. 2.000.000</span
             >
           </div>
-          <div
-            class="opacity-0 schedule-card-2 flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
-          >
-            <h3
-              class="text-orange-400 font-bold font-mono sm:text-lg md:text-xl"
-            >
-              Penyisihan
+
+          <span class="text-4xl sm:text-5xl md:text-6xl"> 💎 </span>
+        </div>
+
+        <div
+          class="flex prizes-card-2 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+        >
+          <div class="opacity-0 flex flex-col">
+            <h3 class="font-bold font-mono sm:text-lg md:text-xl">
+              Juara 2-3 - Gold
             </h3>
-            <span class="text-slate-600 sm:text-lg md:text-xl"
-              ><b>Sesi 2 - Code</b></span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 15 April 2023</span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🕘 11.05 - 13.05</span
+            <span
+              class="text-orange-500 text-2xl sm:text-4xl md:text-5xl font-extrabold"
+              >Rp. 1.000.000</span
             >
           </div>
-          <div
-            class="opacity-0 schedule-card-3 flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
-          >
-            <h3 class="text-blue-500 font-bold font-mono sm:text-lg md:text-xl">
-              Final (Onsite)
+
+          <span class="text-4xl sm:text-5xl md:text-6xl"> 🥇 </span>
+        </div>
+
+        <div
+          class="flex prizes-card-3 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+        >
+          <div class="opacity-0 flex flex-col">
+            <h3 class="font-bold font-mono sm:text-lg md:text-xl">
+              Juara 4-6 Silver
             </h3>
-            <span class="text-slate-600 sm:text-lg md:text-xl"
-              ><b>Code</b></span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 6 Mei 2023</span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🕘 08.35 - 13.35</span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >📍 Jakarta</span
+            <span
+              class="text-orange-500 text-2xl sm:text-4xl md:text-5xl font-extrabold"
+              >Rp. 750.000</span
             >
           </div>
+
+          <span class="text-4xl sm:text-5xl md:text-6xl"> 🥈 </span>
+        </div>
+
+        <div
+          class="flex prizes-card-4 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+        >
+          <div class="opacity-0 flex flex-col">
+            <h3 class="font-bold font-mono sm:text-lg md:text-xl">
+              Juara 7-10 Bronze
+            </h3>
+            <span
+              class="text-orange-500 text-2xl sm:text-4xl md:text-5xl font-extrabold"
+              >Rp. 500.000</span
+            >
+          </div>
+
+          <span class="text-4xl sm:text-5xl md:text-6xl"> 🥉 </span>
+        </div>
+
+        <div
+          class="flex prizes-card-5 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
+        >
+          <div class="opacity-0 flex flex-col">
+            <h3 class="font-bold font-mono sm:text-lg md:text-xl">
+              Seluruh Peserta
+            </h3>
+            <span
+              class="text-orange-500 text-xl sm:text-2xl md:text-3xl font-extrabold"
+              >Rp. 100.000
+            </span>
+            <span class="text-sm font-medium text-orange-500"
+              >Untuk setiap soal yang Accepted pada sesi 2 babak
+              penyisihan</span
+            >
+            <span class="text-black text-md font-medium"
+              >dalam bentuk Voucher belajar di Kokocoder</span
+            >
+          </div>
+
+          <span class="text-2xl sm:text-3xl md:text-4xl"> 💌 </span>
         </div>
       </div>
 
@@ -101,7 +130,7 @@
           @click="$emit('scrollToSection', 'prizes')"
         >
           <span class="flex gap-2 text-lg font-bold">
-            NEXT <i id="schedule-next" class="bx bx-down-arrow-alt"></i>
+            NEXT <i id="prizes-next" class="bx bx-down-arrow-alt"></i>
           </span>
         </button>
       </div>
@@ -120,7 +149,7 @@ export default {
   },
   methods: {
     animateNextArrow() {
-      this.$gsap.to("#schedule-next", {
+      this.$gsap.to("#prizes-next", {
         yoyo: true,
         repeat: -1,
         y: "10px",
@@ -140,7 +169,7 @@ export default {
       newDiv.style.userSelect = "none";
       newDiv.style.transform = "translate(-50%, -50%)";
 
-      document.getElementById("schedule").appendChild(newDiv);
+      document.getElementById("prizes").appendChild(newDiv);
 
       this.$gsap.timeline().fromTo(
         newDiv,
@@ -164,72 +193,93 @@ export default {
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-title",
+          ".prizes-title",
           { opacity: 0, x: "-40px" },
           { opacity: 1, x: "0px", duration: 1 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-description",
+          ".prizes-description",
           { opacity: 0, x: "40px" },
           { opacity: 1, x: "0px", duration: 1 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-1",
+          ".prizes-card-1",
           { opacity: 0, y: "40px" },
           { opacity: 1, y: "0px", duration: 1, delay: 0.25 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-2",
+          ".prizes-card-2",
           { opacity: 0, y: "40px" },
           { opacity: 1, y: "0px", duration: 1, delay: 0.5 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-3",
+          ".prizes-card-3",
           { opacity: 0, y: "40px" },
           { opacity: 1, y: "0px", duration: 1, delay: 0.75 }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".prizes-card-4",
+          { opacity: 0, y: "40px" },
+          { opacity: 1, y: "0px", duration: 1, delay: 1 }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".prizes-card-5",
+          { opacity: 0, y: "40px" },
+          { opacity: 1, y: "0px", duration: 1, delay: 1.25 }
         );
     },
     leaveSection() {
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-title",
+          ".prizes-title",
           { opacity: 1, x: "0px" },
           { opacity: 0, x: "-40px", duration: 1 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-description",
+          ".prizes-description",
           { opacity: 1, x: "0px" },
           { opacity: 0, x: "40px", duration: 1 }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-1",
+          ".prizes-card-1",
           { opacity: 1, y: "0px", duration: 1 },
           { opacity: 0, y: "40px" }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-2",
+          ".prizes-card-2",
           { opacity: 1, y: "0px", duration: 1 },
           { opacity: 0, y: "40px" }
         );
       this.$gsap
         .timeline()
         .fromTo(
-          ".schedule-card-3",
+          ".prizes-card-3",
+          { opacity: 1, y: "0px", duration: 1 },
+          { opacity: 0, y: "40px" }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".prizes-card-4",
           { opacity: 1, y: "0px", duration: 1 },
           { opacity: 0, y: "40px" }
         );

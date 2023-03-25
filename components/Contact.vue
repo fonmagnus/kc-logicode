@@ -30,7 +30,7 @@
           target="_blank"
         >
           <div
-            class="flex items-center gap-2 border-2 border-black px-16 py-4 rounded-lg hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500 transition-all cursor-pointer hover:text-white"
+            class="flex items-center gap-2 border-2 border-black px-8 py-4 rounded-lg hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500 transition-all cursor-pointer hover:text-white"
           >
             <i class="bx bxl-instagram text-2xl"></i>
             kokocoder
@@ -42,22 +42,60 @@
           target="_blank"
         >
           <div
-            class="flex items-center gap-2 border-2 border-black px-16 py-4 rounded-lg hover:bg-black transition-all cursor-pointer hover:text-white"
+            class="flex items-center gap-2 border-2 border-black px-8 py-4 rounded-lg hover:bg-black transition-all cursor-pointer hover:text-white"
           >
             <i class="bx bx-globe text-2xl"></i>
             kokocoder.com
           </div>
         </a>
+
         <a
           class="opacity-0 contact-card-3 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
+          href="https://wa.link/haavs6"
+          target="_blank"
+        >
+          <div
+            class="flex items-center gap-2 border-2 border-black px-8 py-4 rounded-lg hover:bg-gradient-to-r hover:from-green-800 hover:to-green-600 transition-all cursor-pointer hover:text-white"
+          >
+            <i class="bx bxl-whatsapp text-2xl"></i>
+
+            <div class="flex flex-col">
+              0812-8281-9267
+              <span class="text-base"> (Kak Abdul - Competition Head) </span>
+            </div>
+          </div>
+        </a>
+        <a
+          class="opacity-0 contact-card-4 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
+          href="https://wa.link/qmlbj1"
+          target="_blank"
+        >
+          <div
+            class="flex items-center gap-2 border-2 border-black px-8 py-4 rounded-lg hover:bg-gradient-to-r hover:from-green-800 hover:to-green-600 transition-all cursor-pointer hover:text-white"
+          >
+            <i class="bx bxl-whatsapp text-2xl"></i>
+
+            <div class="flex flex-col">
+              0877-8585-7166
+              <span class="text-base"> (Kak Monic - Public Relation) </span>
+            </div>
+          </div>
+        </a>
+
+        <a
+          class="opacity-0 contact-card-5 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
           href="https://wa.link/sg6dfw"
           target="_blank"
         >
           <div
-            class="flex items-center gap-2 border-2 border-black px-16 py-4 rounded-lg hover:bg-gradient-to-r hover:from-green-800 hover:to-green-600 transition-all cursor-pointer hover:text-white"
+            class="flex items-center gap-2 border-2 border-black px-8 py-4 rounded-lg hover:bg-gradient-to-r hover:from-green-800 hover:to-green-600 transition-all cursor-pointer hover:text-white"
           >
             <i class="bx bxl-whatsapp text-2xl"></i>
-            +6285811245759
+
+            <div class="flex flex-col">
+              0858-1124-5759
+              <span class="text-base"> (Kak Arnold - CEO Kokocoder) </span>
+            </div>
           </div>
         </a>
       </div>
@@ -156,6 +194,20 @@ export default {
           { opacity: 0, y: "40px" },
           { opacity: 1, y: "0px", duration: 1, delay: 0.75 }
         );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".contact-card-4",
+          { opacity: 0, y: "40px" },
+          { opacity: 1, y: "0px", duration: 1, delay: 1 }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".contact-card-5",
+          { opacity: 0, y: "40px" },
+          { opacity: 1, y: "0px", duration: 1, delay: 1.25 }
+        );
     },
     leaveSection() {
       this.$gsap
@@ -190,6 +242,20 @@ export default {
         .timeline()
         .fromTo(
           ".contact-card-3",
+          { opacity: 1, y: "0px", duration: 1 },
+          { opacity: 0, y: "40px" }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".contact-card-4",
+          { opacity: 1, y: "0px", duration: 1 },
+          { opacity: 0, y: "40px" }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".contact-card-5",
           { opacity: 1, y: "0px", duration: 1 },
           { opacity: 0, y: "40px" }
         );
