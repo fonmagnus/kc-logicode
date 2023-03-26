@@ -100,7 +100,7 @@
         </a>
       </div>
 
-      <span class="absolute bottom-0 mb-24 text-sm text-slate-600">
+      <span class="absolute bottom-0 mb-16 text-sm text-slate-600">
         &copy;kokocoder 2023
       </span>
     </div>
