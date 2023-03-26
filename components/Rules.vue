@@ -185,10 +185,17 @@
             </ol>
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            4) <b>30 peserta</b> dengan total nilai tertinggi yang diperoleh
+            4) <b>30 peserta*</b> dengan total nilai tertinggi yang diperoleh
             dari kedua sesi pada babak penyisihan akan
             <b>terkualifikasi ke babak final</b>. Peserta dengan perolehan nilai
             yang sama akan memperoleh peringkat yang sama.
+          </span>
+          <span class="text-slate-500 sm:text-lg md:text-xl">
+            5) Terdapat <i>online proctoring</i> pada babak penyisihan. Artinya
+            pengerjaan soal akan diawasi secara online oleh panitia
+          </span>
+          <span class="text-slate-500 text-xs sm:text-base md:text-lg">
+            *) Jumlah masih bersifat tentatif dan dapat berubah sewaktu-waktu.
           </span>
 
           <div class="border border-slate-400 my-2"></div>
@@ -268,7 +275,12 @@
             diatas akan didiskualifikasi dari kompetisi Logicode 2023
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            4) Pertanyaan lebih lanjut mengenai Logicode 2023 dapat diajukan
+            4) Segala teknis peraturan setiap babak pada website ini baru
+            bersifat umum. Peraturan lebih detil akan disampaikan lebih lanjut
+            pada saat technical meeting dengan peserta
+          </span>
+          <span class="text-slate-500 sm:text-lg md:text-xl">
+            5) Pertanyaan lebih lanjut mengenai Logicode 2023 dapat diajukan
             melalui tim Kokocoder melalui nomor whatsapp berikut ini :
             <br />
             <ul>
