@@ -83,7 +83,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 29 April 2023 jam 09.05 - 10.35 WIB</b>
+                <b>Sabtu, 15 April 2023 jam 09.05 - 10.35 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>20 soal</b> logika,
@@ -142,7 +142,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 29 April 2023 jam 11.05 - 13.05 WIB</b>
+                <b>Sabtu, 15 April 2023 jam 11.05 - 13.05 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>6 soal</b> pemrograman dengan
