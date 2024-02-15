@@ -35,7 +35,7 @@
               ><b>Sesi 1 - Logic</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 15 April 2023</span
+              >🗓️ Sabtu, 16 Maret 2024</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 09.05 - 10.35</span
@@ -53,7 +53,7 @@
               ><b>Sesi 2 - Code</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 15 April 2023</span
+              >🗓️ Sabtu, 16 Maret 2024</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 11.05 - 13.05</span
@@ -69,7 +69,7 @@
               ><b>Code</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 6 Mei 2023</span
+              >🗓️ Sabtu, 27 April 2024</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 08.35 - 13.35</span
@@ -238,5 +238,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

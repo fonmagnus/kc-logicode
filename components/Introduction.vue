@@ -45,7 +45,7 @@
         </div>
         <button
           class="py-4 px-28 rounded-xl bg-slate-50 bg-opacity:50 cursor-pointer transition-all"
-          @click="$emit('scrollToSection', 'schedule')"
+          @click="$emit('scrollToSection', 'video')"
         >
           <span class="flex gap-2 text-lg font-bold">
             NEXT <i id="intro-next" class="bx bx-down-arrow-alt"></i>
@@ -143,5 +143,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

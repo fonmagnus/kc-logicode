@@ -83,7 +83,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 15 April 2023 jam 09.05 - 10.35 WIB</b>
+                <b>Sabtu, 16 Maret 2024 jam 09.05 - 10.35 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>20 soal</b> logika,
@@ -142,11 +142,11 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 15 April 2023 jam 11.05 - 13.05 WIB</b>
+                <b>Sabtu, 16 Maret 2024 jam 11.05 - 13.05 WIB</b>
               </li>
               <li>
-                &nbsp; b. Sesi ini terdiri dari <b>6 soal</b> pemrograman dengan
-                tingkat kesulitan mudah-menengah
+                &nbsp; b. Sesi ini terdiri dari <b>6-7 soal</b> pemrograman
+                dengan tingkat kesulitan mudah-menengah
               </li>
               <li>&nbsp; c. Waktu untuk pengerjaan sesi adalah 120 menit</li>
               <li>&nbsp; d. Sesi ini dilaksanakan secara online</li>
@@ -209,7 +209,7 @@
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             2) Dilaksanakan pada hari
-            <b>Sabtu, 6 Mei 2023 jam 08.35 - 13.35 WIB</b>
+            <b>Sabtu, 27 April 2024 jam 08.35 - 13.35 WIB</b>
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             3) Sesi ini terdiri dari <b>8 soal</b> pemrograman dengan tingkat
@@ -427,5 +427,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
