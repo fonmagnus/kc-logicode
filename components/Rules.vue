@@ -37,7 +37,7 @@
             <b>Rp. 50.000</b> (<b>GRATIS</b> untuk Kokocoder Troops) dan
             dibayarkan melalui metode transfer melalui
             <b>BCA dengan nomor rekening 527-157-8581 a.n. Arnold Ardianto</b
-            >&nbsp;(selaku koordinator pelaksana Logicode 2023)</span
+            >&nbsp;(selaku koordinator pelaksana Logicode 2024)</span
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
@@ -265,14 +265,14 @@
             diganggu gugat
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            2) Seluruh materi dalam bentuk soal dan pelaksanaan Logicode 2023
+            2) Seluruh materi dalam bentuk soal dan pelaksanaan Logicode 2024
             bersifat rahasia dan tidak boleh disebarluaskan selama pelaksanaan
             kompetisi. Soal-soal dalam suatu babak boleh dibagikan apabila
             pelaksanaan babak tersebut telah selesai dilaksanakan
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             3) Peserta yang melanggar ketentuan-ketentuan yang sudah disebutkan
-            diatas akan didiskualifikasi dari kompetisi Logicode 2023
+            diatas akan didiskualifikasi dari kompetisi Logicode 2024
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             4) Segala teknis peraturan setiap babak pada website ini baru
@@ -280,7 +280,7 @@
             pada saat technical meeting dengan peserta
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            5) Pertanyaan lebih lanjut mengenai Logicode 2023 dapat diajukan
+            5) Pertanyaan lebih lanjut mengenai Logicode 2024 dapat diajukan
             melalui tim Kokocoder melalui nomor whatsapp berikut ini :
             <br />
             <ul>

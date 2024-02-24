@@ -24,16 +24,16 @@
               segera!</span
             >
             <span v-else
-              >Kamu sudah terdaftar sebagai peserta Logicode 2023! Tunggu admin
+              >Kamu sudah terdaftar sebagai peserta Logicode 2024! Tunggu admin
               untuk menginvite mu ke dalam grup Whatsapp yaa. Sampai jumpa di
-              Logicode 2023</span
+              Logicode 2024</span
             >
           </p>
         </div>
       </div>
 
       <iframe
-        src="https://bit.ly/logicode2023"
+        src="https://bit.ly/logicode2024"
         frameborder="0"
         width="100%"
         height="1024px"

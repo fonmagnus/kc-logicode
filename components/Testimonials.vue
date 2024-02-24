@@ -164,7 +164,7 @@ export default {
           name: "Benedict Presley",
           photo: "presley.jpg",
           message:
-            "Menurut saya, tingkat kesulitan soalnya balanced. Soal - soalnya juga edukatif dan menyangkut banyak topik. Semangat buat para peserta Logicode 2023. Jangan lupa untuk have fun!",
+            "Menurut saya, tingkat kesulitan soalnya balanced. Soal - soalnya juga edukatif dan menyangkut banyak topik. Semangat buat para peserta Logicode. Jangan lupa untuk have fun!",
           title: "Gold Medalist OSN Informatika 2022",
         },
         {

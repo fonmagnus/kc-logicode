@@ -7,6 +7,9 @@ export default {
   generate: {
     fallback: true,
   },
+  server: {
+    port: process.env.PORT || 3005 // default: 3000
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
