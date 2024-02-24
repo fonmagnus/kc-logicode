@@ -86,7 +86,7 @@
           <span class="text-4xl sm:text-5xl md:text-6xl"> 🥉 </span>
         </div>
 
-        <div
+        <!-- <div
           class="flex prizes-card-5 opacity-0 justify-between items-center gap-4 border border-slate-200 shadow-md px-6 py-4 rounded-lg w-full"
         >
           <div class="flex flex-col">
@@ -107,7 +107,7 @@
           </div>
 
           <span class="text-2xl sm:text-3xl md:text-4xl"> 💌 </span>
-        </div>
+        </div> -->
       </div>
 
       <div class="flex flex-col items-center gap-2">
