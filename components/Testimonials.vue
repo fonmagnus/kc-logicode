@@ -161,6 +161,45 @@ export default {
       activeTestimonial: {},
       testimonials: [
         {
+          name: "Gunadi Gani",
+          photo: "gunadi.jpeg",
+          message:
+            "Menurut saya, tingkat kesulitan dan materi yang ada di soal soal logicode cocok untuk yang sedang ingin latihan untuk OSN. Jumlah soalnya ada lumayan banyak jadi siapa aja bisa ketemu soal untuk dipikirkan selama contest. Dari topik nya juga bervariasi, tahun lalu ada dp, graph, data struktur, greedy, dan lain lain. Selain itu juga bisa ketemu dan kenalan dengan orang orang yang baru karena lombanya offline. Secara keseluruhan, menurut saya logicode merupakan sebuah pengalaman yang seru.",
+          title:
+            "Gold Medalist OSN Informatika 2023, Absolute Winner (1st Place) Logicode 2023",
+        },
+        {
+          name: "Radistha Kriska D.P.",
+          photo: "radish.jpeg",
+          message:
+            "Menurutku soal logicode itu menarik banget , soal nya unik dimana tiap soal dibuat sama kakak kakak yang keren keren, Panitia logicode juga ramah & friendly banget, selain itu kamu bakal dapet teman baru dan pengalaman yang ga ada dua nya deh . Buat kualitas soal ga usah diraguin lagi,problemsetter nya aja para peraih medali  OSN. Great experience to be part as a logicode family🔥.",
+          title: "Gold Medalist Logicode 2023",
+        },
+        {
+          name: "Jason Sidharta",
+          photo: "jason.jpeg",
+          message:
+            "soal - soal logicode sangat bagus dan menantang. Apalagi kita bisa belajar nyari poin subtask / nyampah di soal programmingnya.  Pengalaman yang paling berkesan yaitu satu satunya yang AC soal RURQ. Jangan lupa ikut logicode.",
+          title:
+            "Bronze Medalist OSN Informatika 2023, Silver Medalist Logicode 2023",
+        },
+        {
+          name: "Matthew Hutama Pramana",
+          photo: "matthew.jpeg",
+          message:
+            "Menurut saya Logicode merupakan salah satu kompetisi CP yang punya kualitas soal sangat menantang dan menarik, baik pada penyisihan maupun finalnya. Dengan begitu ini sangat membantu saya dalam menimprove kemampuan CP saya karena kualitas soal yang sangat baik. Juga dengan mengikuti Logicode saya dapat lebih menambah relasi dengan orang-orang dari berbagai daerah yang punya minat sama dalam bidang CP. Secara keseluruhan Logicode merupakan salah satu kompetisi yang wajib diikuti bila kalian berminat di bidang CP, yang terpenting enjoy dan have fun dalam berproses",
+          title:
+            "Gold Medalist OSN Informatika 2023, Bronze Medalist Logicode 2023",
+        },
+        {
+          name: "Nathania Jesslyn",
+          photo: "jesslyn.jpeg",
+          message:
+            "Soal-soal di Logicode seru dan menantang. Gak cuma ada soal logika, tapi ada soal pemrograman yang keren juga! Rangkaian acaranya juga seru banget, terutama pas Final Logicode, karena bisa ketemu dan dapat banyak temen baru.",
+          title:
+            "Bronze Medalist OSN Informatika 2023, Bronze Medalist Logicode 2023",
+        },
+        {
           name: "Benedict Presley",
           photo: "presley.jpg",
           message:
