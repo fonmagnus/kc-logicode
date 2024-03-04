@@ -51,7 +51,7 @@
 
         <a
           class="opacity-0 contact-card-3 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
-          href="https://wa.link/haavs6"
+          href="https://wa.link/b3fjva"
           target="_blank"
         >
           <div
@@ -60,14 +60,14 @@
             <i class="bx bxl-whatsapp text-2xl"></i>
 
             <div class="flex flex-col">
-              0812-8281-9267
-              <span class="text-base"> (Kak Abdul - Competition Head) </span>
+              +1 (778) 723-3578
+              <span class="text-base"> (Kak Joel - Competition Head) </span>
             </div>
           </div>
         </a>
         <a
           class="opacity-0 contact-card-4 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
-          href="https://wa.link/qmlbj1"
+          href="https://wa.link/holrnt"
           target="_blank"
         >
           <div
@@ -76,15 +76,15 @@
             <i class="bx bxl-whatsapp text-2xl"></i>
 
             <div class="flex flex-col">
-              0877-8585-7166
-              <span class="text-base"> (Kak Monic - Public Relation) </span>
+              +62 877-8585-7166
+              <span class="text-base"> (Kak Monic - Sales Representative) </span>
             </div>
           </div>
         </a>
 
         <a
           class="opacity-0 contact-card-5 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
-          href="https://wa.link/sg6dfw"
+          href="https://wa.link/ezjemn"
           target="_blank"
         >
           <div
@@ -93,7 +93,7 @@
             <i class="bx bxl-whatsapp text-2xl"></i>
 
             <div class="flex flex-col">
-              0858-1124-5759
+              +62 858-1124-5759
               <span class="text-base"> (Kak Arnold - CEO Kokocoder) </span>
             </div>
           </div>
