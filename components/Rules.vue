@@ -60,11 +60,11 @@
                 • <b>Juara 7-10</b> (Bronze Medalist 🥉): Uang tunai senilai
                 <b>Rp. 500.000</b>
               </li>
-              <li>
+              <!-- <li>
                 • <b>Seluruh Peserta : </b> Voucher Kokocoder senilai
                 <b>Rp. 100.000</b> untuk setiap soal "Accepted" pada sesi 2
                 (code) babak Penyisihan
-              </li>
+              </li> -->
             </ul>
           </span>
 
