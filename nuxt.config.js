@@ -13,7 +13,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "logicode-2024",
+    title: "logicode-2025",
     htmlAttrs: {
       lang: "en",
     },

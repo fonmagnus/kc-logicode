@@ -6,7 +6,7 @@
       <h1
         class="font-bold font-mono text-5xl sm:text-6xl md:text-7xl text-center"
       >
-        LOGICODE 2024
+        LOGICODE 2025
       </h1>
       <h3 class="text-lg sm:text-xl md:text-2xl text-center">
         👩🏻‍💻 (by Kokocoder Group) 👨🏼‍💻
