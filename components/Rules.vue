@@ -83,7 +83,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 9 Agustus 2025 jam 09.05 - 10.35 WIB</b>
+                <b>Sabtu, 16 Agustus 2025 jam 09.05 - 10.35 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>20 soal</b> logika,
@@ -143,7 +143,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 9 Agustus 2025 jam 11.05 - 13.05 WIB</b>
+                <b>Sabtu, 16 Agustus 2025 jam 11.05 - 13.05 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>6-7 soal</b> pemrograman
