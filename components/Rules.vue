@@ -33,11 +33,7 @@
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            3) Biaya pendaftaran adalah sebesar
-            <b>Rp. 50.000</b> (<b>GRATIS</b> untuk Kokocoder Troops) dan
-            dibayarkan melalui metode transfer melalui
-            <b>BCA dengan nomor rekening 527-157-8581 a.n. Arnold Ardianto</b
-            >&nbsp;(selaku koordinator pelaksana Logicode 2025)</span
+            3) Kompetisi dapat diikuti secara <b>GRATIS</b> (tidak dikenakan biaya pendaftaran)</span
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
