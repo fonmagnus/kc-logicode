@@ -16,7 +16,7 @@
             class="opacity-0 contact-description text-md text-center sm:text-xl md:text-2xl text-slate-600"
           >
             <span
-              >Kalau kamu masih memiliki pertanyaan seputar Logicode 2024,
+              >Kalau kamu masih memiliki pertanyaan seputar Logicode 2025,
               jangan malu-malu ya buat hubungi tim admin Kokocoder melalui :
             </span>
           </p>
@@ -101,7 +101,7 @@
       </div>
 
       <span class="absolute bottom-0 mb-16 text-sm text-slate-600">
-        &copy;kokocoder 2024
+        &copy;kokocoder 2025
       </span>
     </div>
   </intersect>

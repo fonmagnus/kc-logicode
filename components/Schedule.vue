@@ -35,7 +35,7 @@
               ><b>Sesi 1 - Logic</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 23 Maret 2024</span
+              >🗓️ Sabtu, 16 Agustus 2025</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 09.05 - 10.35</span
@@ -53,7 +53,7 @@
               ><b>Sesi 2 - Code</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 23 Maret 2024</span
+              >🗓️ Sabtu, 16 Agustus 2025</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 11.05 - 13.05</span
@@ -63,19 +63,16 @@
             class="opacity-0 schedule-card-3 flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
           >
             <h3 class="text-blue-500 font-bold font-mono sm:text-lg md:text-xl">
-              Final (Onsite)
+              Final (Online)
             </h3>
             <span class="text-slate-600 sm:text-lg md:text-xl"
               ><b>Code</b></span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >🗓️ Sabtu, 27 April 2024</span
+              >🗓️ Sabtu, 20 September 2025</span
             >
             <span class="text-slate-600 text-sm sm:text-md md:text-lg"
               >🕘 08.35 - 13.35</span
-            >
-            <span class="text-slate-600 text-sm sm:text-md md:text-lg"
-              >📍 Jakarta</span
             >
           </div>
         </div>

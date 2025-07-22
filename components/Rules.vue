@@ -33,11 +33,7 @@
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            3) Biaya pendaftaran adalah sebesar
-            <b>Rp. 50.000</b> (<b>GRATIS</b> untuk Kokocoder Troops) dan
-            dibayarkan melalui metode transfer melalui
-            <b>BCA dengan nomor rekening 527-157-8581 a.n. Arnold Ardianto</b
-            >&nbsp;(selaku koordinator pelaksana Logicode 2024)</span
+            3) Kompetisi dapat diikuti secara <b>GRATIS</b> (tidak dikenakan biaya pendaftaran)</span
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
@@ -83,11 +79,11 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 23 Maret 2024 jam 09.05 - 10.35 WIB</b>
+                <b>Sabtu, 16 Agustus 2025 jam 09.05 - 10.35 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>20 soal</b> logika,
-                analitika, dan matematika
+                analitika, matematika, dan membaca kode
               </li>
               <li>&nbsp; c. Waktu untuk pengerjaan sesi adalah 90 menit</li>
               <li>&nbsp; d. Sesi ini dilaksanakan secara online</li>
@@ -95,6 +91,7 @@
                 &nbsp; e. Selama pelaksanaan, peserta DILARANG untuk :
                 <br />
                 <ul>
+                  <li>&nbsp; &nbsp; • <b>Menggunakan kakas AI (Artificial Intelligence) atau LLM (Large Language Model)</b></li>
                   <li>&nbsp; &nbsp; • Bekerja sama dengan peserta lainnya</li>
                   <li>&nbsp; &nbsp; • Membuka Google / Browsing</li>
                   <li>&nbsp; &nbsp; • Menggunakan kalkulator digital</li>
@@ -122,7 +119,7 @@
                 <ul>
                   <li>
                     &nbsp; &nbsp; • Jawaban <b>BENAR</b> mendapatkan nilai
-                    <b>10 point</b>
+                    <b>6 point</b>
                   </li>
                   <li>
                     &nbsp; &nbsp; • Jawaban <b>SALAH</b> mendapatkan nilai
@@ -142,7 +139,7 @@
             <ol>
               <li>
                 &nbsp; a. Dilaksanakan pada hari
-                <b>Sabtu, 23 Maret 2024 jam 11.05 - 13.05 WIB</b>
+                <b>Sabtu, 16 Agustus 2025 jam 11.05 - 13.05 WIB</b>
               </li>
               <li>
                 &nbsp; b. Sesi ini terdiri dari <b>6-7 soal</b> pemrograman
@@ -177,8 +174,11 @@
                 <br />
                 <ul>
                   <li>
-                    Setiap verdict <b>ACCEPTED</b> mendapatkan nilai
-                    <b>100 point</b>
+                    Setiap soal memiliki nilai maksimal <b>100 point</b>
+                  </li>
+                  <li>
+                    Total poin peserta untuk satu soal adalah jumlah poin untuk setiap subsoal yang
+                    berhasil diselesaikan.
                   </li>
                 </ul>
               </li>
@@ -204,12 +204,11 @@
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             1) Pelaksanaan babak final akan dilaksanakan secara
-            <i>onsite</i> (tatap muka) dan berlokasi di <b>Jakarta</b>. Adapun
-            lokasi persis untuk pelaksanaan lomba akan diinformasikan kemudian
+            <i>online</i> (daring). Adapun info lebih lanjut akan diumumkan setelah finalis terpilih.
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             2) Dilaksanakan pada hari
-            <b>Sabtu, 27 April 2024 jam 08.35 - 13.35 WIB</b>
+            <b>Sabtu, 20 September 2025 jam 08.35 - 13.35 WIB</b>
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             3) Sesi ini terdiri dari <b>8 soal</b> pemrograman dengan tingkat
@@ -225,19 +224,17 @@
             <b>0 s.d. 100 point</b>
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            6) Peserta <b>diwajibkan</b> membawa laptop pribadi
-          </span>
-          <span class="text-slate-500 sm:text-lg md:text-xl">
-            7) Selama pelaksanaan, peserta DILARANG untuk :
+            6) Selama pelaksanaan, peserta DILARANG untuk :
             <br />
             <ul>
+              <li>&nbsp; &nbsp; • <b>Menggunakan kakas AI (Artificial Intelligence) atau LLM (Large Language Model)</b></li>
               <li>&nbsp; &nbsp; • Bekerja sama dengan peserta lainnya</li>
               <li>&nbsp; &nbsp; • Membuka Google / Browsing</li>
             </ul>
           </span>
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            8) Peserta DIPERBOLEHKAN untuk:
+            7) Peserta DIPERBOLEHKAN untuk:
             <br />
             <ul>
               <li>
@@ -250,7 +247,7 @@
           </span>
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            9) Pemenang ditentukan berdasarkan perolehan total poin yang
+            8) Pemenang ditentukan berdasarkan perolehan total poin yang
             didapatkan di babak final. 10 Peserta dengan total poin tertinggi
             berhak mendapatkan hadiah sesuai yang tertulis pada bagian ketentuan
             umum.
@@ -265,14 +262,14 @@
             diganggu gugat
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            2) Seluruh materi dalam bentuk soal dan pelaksanaan Logicode 2024
+            2) Seluruh materi dalam bentuk soal dan pelaksanaan Logicode 2025
             bersifat rahasia dan tidak boleh disebarluaskan selama pelaksanaan
             kompetisi. Soal-soal dalam suatu babak boleh dibagikan apabila
             pelaksanaan babak tersebut telah selesai dilaksanakan
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             3) Peserta yang melanggar ketentuan-ketentuan yang sudah disebutkan
-            diatas akan didiskualifikasi dari kompetisi Logicode 2024
+            diatas akan didiskualifikasi dari kompetisi Logicode 2025
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             4) Segala teknis peraturan setiap babak pada website ini baru
@@ -280,7 +277,7 @@
             pada saat technical meeting dengan peserta
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
-            5) Pertanyaan lebih lanjut mengenai Logicode 2024 dapat diajukan
+            5) Pertanyaan lebih lanjut mengenai Logicode 2025 dapat diajukan
             melalui tim Kokocoder melalui nomor whatsapp berikut ini :
             <br />
             <ul>
