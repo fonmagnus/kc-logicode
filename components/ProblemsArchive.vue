@@ -14,6 +14,42 @@
         class="flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
       >
         <h3 class="text-orange-400 font-bold font-mono sm:text-lg md:text-xl">
+          Logicode 2024
+        </h3>
+        <ul>
+          <li>
+            <a
+              href="https://portal.kokocoder.com/contests/quiz/logicode-2024-qualification-round-1"
+              target="_blank"
+              class="text-slate-600 text-sm sm:text-md md:text-lg underline"
+            >
+              <i class="bx bx-link-external"></i> Penyisihan Round 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://portal.kokocoder.com/contests/logicode-2024-qualification-round-2"
+              target="_blank"
+              class="text-slate-600 text-sm sm:text-md md:text-lg underline"
+            >
+              <i class="bx bx-link-external"></i> Penyisihan Round 2
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://portal.kokocoder.com/contests/logicode-2024-final-round"
+              target="_blank"
+              class="text-slate-600 text-sm sm:text-md md:text-lg underline"
+            >
+              <i class="bx bx-link-external"></i> Final Round
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="flex flex-col border border-slate-200 shadow-md px-4 py-2 rounded-lg w-full"
+      >
+        <h3 class="text-orange-400 font-bold font-mono sm:text-lg md:text-xl">
           Logicode 2023
         </h3>
         <ul>
