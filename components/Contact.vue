@@ -60,8 +60,8 @@
             <i class="bx bxl-whatsapp text-2xl"></i>
 
             <div class="flex flex-col">
-              +1 (778) 723-3578
-              <span class="text-base"> (Kak Joel - Competition Head) </span>
+              +62 823-6095-3388
+              <span class="text-base"> (Kak Ben - Competition Head) </span>
             </div>
           </div>
         </a>
