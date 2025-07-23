@@ -1,3 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Binary Matrix Background */
+.matrix-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 50%, #ffffff 100%);
+  overflow: hidden;
+}
+
+.matrix-background canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  animation: matrixGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes matrixGlow {
+  0% {
+    filter: brightness(1.0) contrast(1.0);
+  }
+  100% {
+    filter: brightness(0.9) contrast(1.1);
+  }
+}
+
+/* Subtle enhancements */
+.matrix-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(200, 200, 200, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(150, 150, 150, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(180, 180, 180, 0.01) 0%, transparent 50%);
+  pointer-events: none;
+  animation: pulseGlow 12s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+/* Subtle scanline effect */
+.matrix-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 4px,
+    rgba(220, 220, 220, 0.005) 4px,
+    rgba(220, 220, 220, 0.005) 6px
+  );
+  pointer-events: none;
+  animation: scanlines 0.2s linear infinite;
+}
+
+@keyframes scanlines {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(6px);
+  }
+}
+
+/* Background Music Player */
+.music-player {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.music-toggle {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.music-toggle:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.music-toggle i {
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.music-toggle:hover i {
+  color: #000;
+}
+
+/* Responsive music player */
+@media (max-width: 640px) {
+  .music-player {
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .music-toggle {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .music-toggle i {
+    font-size: 18px;
+  }
+}
+
+/* Animated Logo Section in Contact */
+.logo-section-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-container {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 800px;
+  height: 320px;
+  max-width: 90vw;
+}
+
+.svg-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  fill: url(#blackYellowGradient);
+  transform-origin: center center;
+  transform-box: fill-box;
+}
+
+
+
+/* Responsive Logo */
+@media (max-width: 768px) {
+  .logo-svg {
+    width: 600px;
+    height: 240px;
+  }
+  
+  .svg-text {
+    font-size: 54px;
+  }
+  
+  .logo-section-contact {
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .logo-svg {
+    width: 450px;
+    height: 180px;
+  }
+  
+  .svg-text {
+    font-size: 42px;
+  }
+  
+  .logo-section-contact {
+    margin: 1rem 0;
+  }
+}

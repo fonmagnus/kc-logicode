@@ -100,6 +100,42 @@
         </a>
       </div>
 
+      <!-- Animated Logo Section -->
+      <div class="logo-section-contact">
+        <div class="logo-container">
+          <div class="logo-wrapper" id="logoWrapper">
+            <svg class="logo-svg" viewBox="0 0 300 120" id="logoSvg">
+              <defs>
+                <linearGradient id="blackYellowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#000000;stop-opacity:1">
+                    <animate attributeName="stop-color" 
+                      values="#000000;#ffd700;#000000;#ffd700;#000000" 
+                      dur="6s" 
+                      repeatCount="indefinite" 
+                      begin="2.5s" />
+                  </stop>
+                  <stop offset="50%" style="stop-color:#ffd700;stop-opacity:1">
+                    <animate attributeName="stop-color" 
+                      values="#ffd700;#000000;#ffd700;#000000;#ffd700" 
+                      dur="6s" 
+                      repeatCount="indefinite" 
+                      begin="2.5s" />
+                  </stop>
+                  <stop offset="100%" style="stop-color:#000000;stop-opacity:1">
+                    <animate attributeName="stop-color" 
+                      values="#000000;#ffd700;#000000;#ffd700;#000000" 
+                      dur="6s" 
+                      repeatCount="indefinite" 
+                      begin="2.5s" />
+                  </stop>
+                </linearGradient>
+              </defs>
+              <text x="150" y="80" text-anchor="middle" class="svg-text opacity-0">{ kc }</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
       <span class="absolute bottom-0 mb-16 text-sm text-slate-600">
         &copy;kokocoder 2025
       </span>
@@ -208,6 +244,13 @@ export default {
           { opacity: 0, y: "40px" },
           { opacity: 1, y: "0px", duration: 1, delay: 1.25 }
         );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".svg-text",
+          { opacity: 0, scale: 0.5 },
+          { opacity: 1, scale: 1, duration: 1, delay: 1.5 }
+        );
     },
     leaveSection() {
       this.$gsap
@@ -258,6 +301,13 @@ export default {
           ".contact-card-5",
           { opacity: 1, y: "0px", duration: 1 },
           { opacity: 0, y: "40px" }
+        );
+      this.$gsap
+        .timeline()
+        .fromTo(
+          ".svg-text",
+          { opacity: 1, scale: 1 },
+          { opacity: 0, scale: 0.5, duration: 1 }
         );
     },
   },
