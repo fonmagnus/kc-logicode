@@ -61,7 +61,7 @@
 
             <div class="flex flex-col">
               +62 823-6095-3388
-              <span class="text-base"> (Kak Ben - Competition Head) </span>
+              <span class="text-base"> (Kak Fariz - Competition Contact Person) </span>
             </div>
           </div>
         </a>
