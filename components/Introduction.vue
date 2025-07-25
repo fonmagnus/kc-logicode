@@ -17,7 +17,7 @@
           <span class="text-slate-600 text-center"
             >Logicode adalah kompetisi reguler yang diadakan Kokocoder setiap
             tahunnya untuk kamu yang masih duduk di
-            <b>kelas 7 SMP - 11 SMA</b></span
+            <b>kelas 7 SMP - 12 SMA</b></span
           >
           <br />
           <br />

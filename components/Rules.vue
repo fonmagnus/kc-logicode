@@ -25,7 +25,7 @@
           </span>
           <span class="text-slate-500 sm:text-lg md:text-xl">
             1) Peserta merupakan siswa kelas
-            <b>7 SMP - 11 SMA</b> dari seluruh Indonesia</span
+            <b>7 SMP - 12 SMA</b> dari seluruh Indonesia</span
           >
 
           <span class="text-slate-500 sm:text-lg md:text-xl">
