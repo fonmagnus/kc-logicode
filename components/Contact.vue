@@ -60,7 +60,7 @@
             <i class="bx bxl-whatsapp text-2xl"></i>
 
             <div class="flex flex-col">
-              +62 823-6095-3388
+              +62 855-4677-2321
               <span class="text-base"> (Kak Fariz - Competition Contact Person) </span>
             </div>
           </div>
