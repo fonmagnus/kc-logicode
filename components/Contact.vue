@@ -51,7 +51,7 @@
 
         <a
           class="opacity-0 contact-card-3 font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
-          href="https://wa.link/b3fjva"
+          href="https://wa.link/dd8chq"
           target="_blank"
         >
           <div
